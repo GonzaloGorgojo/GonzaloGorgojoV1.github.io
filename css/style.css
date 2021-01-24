@@ -13,7 +13,7 @@
     min-height: 100vh;
  }
  body{
-     background-image: url(./pics/Wallpaper.jpg);
+     background-image: url(../pics/Wallpaper.jpg);
      background-size: cover;
      background-repeat: no-repeat;
      background-position: bottom;

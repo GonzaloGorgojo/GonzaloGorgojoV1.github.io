@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+
+ body,
+ html {
+    color: white;
+    font-family: 'lato', sans-serif ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+ }
+ body{
+     background-image: url(/pics/Wallpaper.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: bottom;
+ }
+
+ .center .avatar img{
+     border-radius: 50%;
+     width: 140px;
+     height: 140px;
+     margin-top: 10%;
+     object-fit: cover;
+     object-position: 0 -8px;
+ }
+
+ .center{
+     width: 100%;
+     background-color: rgba(0, 0, 0, 0.7);
+     height: 65vh;
+     text-align: center;
+     border-radius: 5px;
+ }
+
+ .content{
+     padding: 30px;
+ }
+
+ h1{
+     color: wheat;
+ }
+
+ h2{
+     margin: 10px auto;
+     font-weight: lighter;
+     letter-spacing: 1px;
+ }
+
+ .content h3{
+     margin-top: 20px;
+ }
+
+ div.social i {
+     padding: 0 10px;
+     font-size: 30px;
+     color: rgba(255, 255, 255, 0.6);
+     transition: 0.4s;
+ }
+
+ div.social i:hover{
+     color: rgba(255, 255, 255, 1);
+ }
